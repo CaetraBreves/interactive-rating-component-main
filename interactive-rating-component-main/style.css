@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    
+    height: 100vh;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*==============Main==============*/
+main{
+    width: 410px;
+    height: 430px;
+    
+    border-radius: 7%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    flex-direction: column;
+    
+
+    background-color: hsl(212, 21%, 14%);
+    
+}
+
+#content{
+    padding: 33px;
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.icon{
+    border-radius: 50%;
+    
+    
+    width:  46px;
+    height: 46px;
+
+    margin-top: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(213, 19%, 18%);
+    
+}
+.icon, svg{
+    
+    margin-bottom: 0px;
+    
+    
+    
+}
+/*==========Text=============*/
+
+h1{
+    color: white;
+    margin-top: -6px;
+}
+
+.p1{
+    margin-top: -20px;
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+
+    line-height: 23px;
+}
+
+/*=========Lower_Buttons============*/
+
+.ratings{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: row;
+    
+    margin-bottom: -10px;
+    
+}
+
+.ratingButtons{
+    height: 50px;
+    width:  50px;
+
+    border: transparent;
+    border-radius: 50%;
+    
+    background-color:  hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+    .ratingButtons:hover{
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+    }
+
+    .ratingButtons:active{
+        background-color: hsl(25, 97%, 53%);
+        color: white;
+    }
+
+
+#submitB{
+    height: 41px;
+    width: 320px;
+    align-self: center;
+
+    border: none;
+    border-radius: 30px;
+
+    margin-bottom: -20px;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    color: white;
+    background-color:  hsl(25, 97%, 53%);
+
+    cursor: pointer;
+
+    text-align: center;
+}
+
+#submitB:active{
+    color: hsl(25, 97%, 53%);
+    background-color:  white;
+
+}
+
+
+
+
+
+
+
+/*=====================================================*/
+
+
+#content2{
+    padding: 33px;
+    height: 100%;
+
+    display: none;
+
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#thankYouImage{
+    margin-top: 20px ;
+    width: 180px;
+}
+
+#youVe {
+    height: 35px;
+    width: 200px;
+
+    border-radius: 50px;
+    
+    background-color: #272e38;
+
+    margin-top: 30px;
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selection {
+    color: hsl(25, 100%, 60%);
+}
+
+#thankYouMessage {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+#message{
+    margin-top: 16px;
+    text-align: center;
+    width: 358px;
+    color:hsl(216, 12%, 54%);
+}
+
